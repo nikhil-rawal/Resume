@@ -1006,33 +1006,237 @@ img {
   } */
 }
 
-/* ========== For Extra Large Devices ========== */
-@media screen and (min-width: 1150px) {
+/* ========== For Extra Large (X) Devices ========== */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 78%;
+  }
   .nav {
     max-width: 85%;
     height: 5rem;
-    column-gap: 5rem;
+    column-gap: 4rem;
 
     .nav__logo,
-    .nav__link {
-      font-size: 150%;
+    .nav__link,
+    #theme-button {
+      font-size: 1.25rem;
     }
-    .theme-button {
-      font-size: 200%;
+  }
+
+  .home {
+    .container {
+      .home__data {
+        .button--flex {
+          font-size: 1.1rem;
+        }
+      }
+      .home__title {
+        font-size: 2.5rem;
+      }
+      .home__subtitle {
+        font-size: 1.5rem;
+      }
+      .home__description {
+        font-size: 1.25rem;
+      }
+      .home__social-icon {
+        margin-left: 400%;
+        font-size: 1.45rem;
+      }
+      .button__icon {
+        font-size: 1.75rem;
+      }
+
+      .home__Scroll {
+        .home__scroll-mouse {
+          font-size: 1rem;
+        }
+        .home__scroll-name {
+          font-size: 1.2rem;
+        }
+        .home__scroll-arrow {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .about {
+    .section__title {
+      font-size: 1.8rem;
+    }
+    .section__subtitle {
+      font-size: 1.3rem;
+    }
+
+    .about__description {
+      font-size: 1.25rem;
+    }
+    .about__info {
+      .about__info-title,
+      .about__info-name {
+        font-size: 1.15rem;
+      }
+    }
+    .about__buttons {
+      .button--flex,
+      .button__icon {
+        font-size: 1.05rem;
+      }
+    }
+  }
+
+  .skills {
+    .container {
+      width: 65%;
+    }
+    .section__title {
+      font-size: 1.8rem;
+    }
+    .section__subtitle {
+      font-size: 1.3rem;
+    }
+    .skills__content {
+      .skills__icon {
+      }
+      .skills__arrow {
+      }
+      .skills__title {
+        font-size: 1.3rem;
+      }
+      .skills__subtitle {
+        font-size: 1.1rem;
+      }
+    }
+
+    .skills__data {
+      .skills__titles {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  .qualification {
+    .container {
+      width: 25%;
+    }
+    .section__title {
+      font-size: 1.8rem;
+    }
+    .section__subtitle {
+      font-size: 1.3rem;
+    }
+    .qualification__button {
+      font-size: 1.2rem;
+    }
+    .qualification__title {
+      font-size: 1rem;
+    }
+    .qualification__subtitle {
+      font-size: 1rem;
+    }
+    .qualification__calendar {
+      font-size: 1rem;
+    }
+  }
+
+  .hobbies {
+    .section__title {
+      font-size: 1.8rem;
+    }
+    .section__subtitle {
+      font-size: 1.3rem;
+    }
+    .hobbies__icon {
+      font-size: 2rem;
+    }
+    .hobbies__title {
+      font-size: 1.4rem;
+    }
+    .button--flex {
+      font-size: 1.1rem;
+    }
+    .hobbies__modal-title {
+      font-size: 1.4rem;
+    }
+    .hobbies__modal-subtitle {
+      font-size: 1.2rem;
+    }
+  }
+
+  .portfolio {
+    .section__title {
+      font-size: 1.8rem;
+    }
+    .section__subtitle {
+      font-size: 1.3rem;
+    }
+    .portfolio__img {
+      width: 120%;
+    }
+    .portfolio__title {
+      font-size: 1.4rem;
+    }
+    .portfolio__description {
+      font-size: 1.2rem;
+    }
+    .button--flex {
+      font-size: 1.1rem;
+    }
+  }
+
+  .footer {
+    .footer__title {
+      font-size: 2rem;
+    }
+    .footer__subtitle {
+      font-size: 1.1rem;
+    }
+    .footer__link {
+      font-size: 1rem;
+    }
+    .footer__socials {
+      font-size: 1.2rem;
+    }
+    .footer__copy {
+      font-size: 1rem;
+    }
+  }
+}
+
+/* ========== For Extra Extra Large (XX) Devices ========== */
+/* @media screen and (min-width: 1300px) {
+  .nav {
+    max-width: 85%;
+    height: 6rem;
+    column-gap: 7rem;
+
+    .nav__logo,
+    .nav__link,
+    #theme-button {
+      font-size: 1.7rem;
     }
   }
 
   .home {
     .container {
       max-width: 82%;
-      .home__title,
-      .home__subtitle,
+      .home__title {
+        font-size: 2.5rem;
+      }
+      .home__subtitle {
+        font-size: 1.5rem;
+      }
       .home__description {
-        font-size: 150%;
+        font-size: 1.25rem;
       }
       .home__social-icon {
-        margin-left: 500%;
+        margin-left: 400%;
+        font-size: 1.5rem;
+      }
+      .button__icon {
+        font-size: 1.75rem;
       }
     }
   }
-}
+} */
