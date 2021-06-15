@@ -133,6 +133,9 @@ window.onload = function () {/*==================== MENU SHOW Y HIDDEN =========
     }
     window.addEventListener('scroll', scrollUp)
 
+    //Custom Night Mode
+
+
     /*==================== DARK LIGHT THEME ====================*/
 
     const themeButton = document.getElementById('theme-button')
