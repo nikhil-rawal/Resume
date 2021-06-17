@@ -328,7 +328,7 @@ img {
 }
 
 .home__blob-img {
-  width: 140px;
+  width: 170px;
 }
 
 .home__data {
@@ -872,10 +872,6 @@ img {
 
 .footer__subtitle {
   font-size: var(--small-font-size);
-}
-.footer__title:hover,
-.footer__subtitle:hover {
-  color: var(--first-color-lighter);
 }
 
 .footer__links {
