@@ -328,7 +328,7 @@ img {
 }
 
 .home__blob-img {
-  width: 140px;
+  width: 475px;
 }
 
 .home__data {
@@ -552,40 +552,144 @@ img {
 .skills__percentage {
   display: block;
   background-color: var(--first-color);
+  -webkit-animation-duration: 2s;
+  -webkit-animation-timing-function: ease-out;
+  -moz-animation-duration: 2s;
+  -moz-animation-timing-function: ease-out;
+  -o-animation-duration: 2s;
+  -o-animation-timing-function: ease-out;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
 }
 
 .skills__html {
+  -webkit-animation-name: skills__html;
+  -moz-animation-name: skills__html;
+  -o-animation-name: skills__html;
+  animation-name: skills__html;
   width: 80%;
 }
 
 .skills__css {
+  -webkit-animation-name: skills__css;
+  -moz-animation-name: skills__css;
+  -o-animation-name: skills__css;
+  animation-name: skills__css;
   width: 80%;
 }
 
 .skills__js {
+  -webkit-animation-name: skills__js;
+  -moz-animation-name: skills__js;
+  -o-animation-name: skills__js;
+  animation-name: skills__js;
   width: 70%;
 }
 
 .skills__react {
+  -webkit-animation-name: skills__react;
+  -moz-animation-name: skills__react;
+  -o-animation-name: skills__react;
+  animation-name: skills__react;
   width: 60%;
 }
 
 .skills__xdfig {
+  -webkit-animation-name: skills__xdfig;
+  -moz-animation-name: skills__xdfig;
+  -o-animation-name: skills__xdfig;
+  animation-name: skills__xdfig;
   width: 85%;
 }
 
 .skills__ae {
-  width: 70%;
+  -webkit-animation-name: skills__ae;
+  -moz-animation-name: skills__ae;
+  -o-animation-name: skills__ae;
+  animation-name: skills__ae;
+  width: 80%;
 }
 
 .skills__resolve {
+  -webkit-animation-name: skills__resolve;
+  -moz-animation-name: skills__resolve;
+  -o-animation-name: skills__resolve;
+  animation-name: skills__resolve;
   width: 70%;
 }
 
 .skills__illinkscape {
-  width: 70%;
+  -webkit-animation-name: skills__illinkscape;
+  -moz-animation-name: skills__illinkscape;
+  -o-animation-name: skills__illinkscape;
+  animation-name: skills__illinkscape;
+  width: 65%;
 }
 
+@keyframes skills__html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes skills__css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@keyframes skills__js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes skills__react {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 60%;
+  }
+}
+@keyframes skills__xdfig {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 85%;
+  }
+}
+@keyframes skills__ae {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes skills__resolve {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+@keyframes skills__illinkscape {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 65%;
+  }
+}
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
@@ -1108,8 +1212,8 @@ img {
     margin-left: 3rem;
   }
   .about__container {
-    -webkit-column-gap: 5rem;
-    column-gap: 5rem;
+    -webkit-column-gap: 3rem;
+    column-gap: 3rem;
   }
   .about__img {
     width: 350px;
@@ -1248,6 +1352,7 @@ img {
   .container {
     max-width: 78%;
   }
+
   .nav {
     max-width: 85%;
     height: 5rem;
@@ -1259,34 +1364,41 @@ img {
   .nav #theme-button {
     font-size: 1.25rem;
   }
-  .home .container .home__data .button--flex {
+
+  .home__content,
+  .home__img,
+  .home__data,
+  .home__scroll {
+    -webkit-margin-before: -4.5%;
+  }
+  .home__data .button--flex {
     font-size: 1.1rem;
   }
-  .home .container .home__title {
+  home__title {
     font-size: 2.5rem;
   }
-  .home .container .home__subtitle {
+  .home__subtitle {
     font-size: 1.5rem;
   }
-  .home .container .home__description {
+  .home__description {
     font-size: 1.25rem;
   }
-  .home .container .home__social-icon {
-    margin-left: 400%;
+  .home__social-icon {
     font-size: 1.45rem;
   }
   .home .container .button__icon {
     font-size: 1.75rem;
   }
-  .home .container .home__Scroll .home__scroll-mouse {
-    font-size: 1rem;
+  .home__scroll-mouse {
+    font-size: 2rem;
   }
-  .home .container .home__Scroll .home__scroll-name {
+  .home__scroll-name {
     font-size: 1.2rem;
   }
-  .home .container .home__Scroll .home__scroll-arrow {
+  .home__scroll-arrow {
     font-size: 1.5rem;
   }
+
   .about .section__title {
     font-size: 1.8rem;
   }
@@ -1304,6 +1416,7 @@ img {
   .about .about__buttons .button__icon {
     font-size: 1.05rem;
   }
+
   .skills .container {
     width: 65%;
   }
@@ -1322,6 +1435,7 @@ img {
   .skills .skills__data .skills__titles {
     font-size: 1.1rem;
   }
+
   .qualification .container {
     width: 25%;
   }
@@ -1343,6 +1457,7 @@ img {
   .qualification .qualification__calendar {
     font-size: 1rem;
   }
+
   .hobbies .section__title {
     font-size: 1.8rem;
   }
@@ -1364,6 +1479,7 @@ img {
   .hobbies .hobbies__modal-subtitle {
     font-size: 1.2rem;
   }
+
   .portfolio .section__title {
     font-size: 1.8rem;
   }
@@ -1382,6 +1498,7 @@ img {
   .portfolio .button--flex {
     font-size: 1.1rem;
   }
+
   .footer .footer__title {
     font-size: 2rem;
   }

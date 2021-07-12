@@ -11,8 +11,6 @@ window.onload = function () {/*==================== MENU SHOW Y HIDDEN =========
     if (navToggle) {
         navToggle.addEventListener('click', () => {
             navMenu.classList.add('show-menu')
-
-
         })
 
     }
@@ -45,16 +43,43 @@ window.onload = function () {/*==================== MENU SHOW Y HIDDEN =========
 
         for (i = 0; i < skillsContent.length; i++) {
             skillsContent[i].className = 'skills__content skills__close'
+
         }
+
         if (itemClass === 'skills__content skills__close') {
             this.parentNode.className = 'skills__content skills__open'
+
+
+            let parent = this.parentNode.children[1].children;
+
+            for (let n = 0; n < parent.length; n++) {
+                let newParent = parent[n].children[1].childNodes[1];
+
+                //newParent.classList[1].remove;
+                console.log(newParent.classList[1]);
+
+                //newParent.classList.remove('skills__percentage');
+                //console.log(newParent);
+
+                /* for (const property in newParent) {
+                    console.log(property);
+                } */
+
+                //newParent.classList.remove('skills__percentage');
+
+                //newParent.classList.add('skills__percentage');
+            }
+
+            // document.getElementsByClassName('skills__bar')[0]
+
         }
+
+
     }
 
     skillsHeader.forEach((el) => {
         el.addEventListener('click', toggleSkills)
     });
-
 
     /*==================== HOBBIES MODAL ====================*/
     const modalViews = document.querySelectorAll('.hobbies__modal');
@@ -92,8 +117,6 @@ window.onload = function () {/*==================== MENU SHOW Y HIDDEN =========
         mousewheel: true,
         keyboard: true,
     });
-
-    /*==================== TESTIMONIAL ====================*/
 
 
     /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
