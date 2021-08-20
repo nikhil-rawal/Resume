@@ -118,6 +118,22 @@ window.onload = function () {/*==================== MENU SHOW Y HIDDEN =========
         keyboard: true,
     });
 
+    /*==================== PROJECTS UNDERWAY SWIPER  ====================*/
+    let swiper2 = new Swiper(".projects_underway__container", {
+        cssMode: true,
+        loop: true,
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        mousewheel: true,
+        keyboard: true,
+    });
+
 
     /*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 
