@@ -552,13 +552,15 @@ img {
 .skills__percentage {
   display: block;
   background-color: var(--first-color);
-  -webkit-animation-duration: 2s;
+}
+.skills__animate {
+  -webkit-animation-duration: 4s;
   -webkit-animation-timing-function: ease-out;
-  -moz-animation-duration: 2s;
+  -moz-animation-duration: 4s;
   -moz-animation-timing-function: ease-out;
-  -o-animation-duration: 2s;
+  -o-animation-duration: 4s;
   -o-animation-timing-function: ease-out;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-timing-function: ease-out;
 }
 
@@ -591,7 +593,7 @@ img {
   -moz-animation-name: skills__react;
   -o-animation-name: skills__react;
   animation-name: skills__react;
-  width: 70%;
+  width: 75%;
 }
 
 .skills__xdfig {
@@ -631,7 +633,7 @@ img {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes skills__css {
@@ -639,7 +641,7 @@ img {
     width: 0%;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 @keyframes skills__js {
@@ -647,7 +649,7 @@ img {
     width: 0%;
   }
   100% {
-    width: 70%;
+    width: 85%;
   }
 }
 @keyframes skills__react {
@@ -655,7 +657,7 @@ img {
     width: 0%;
   }
   100% {
-    width: 60%;
+    width: 75%;
   }
 }
 @keyframes skills__xdfig {

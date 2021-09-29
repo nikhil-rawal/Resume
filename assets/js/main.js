@@ -49,29 +49,6 @@ window.onload = function () {/*==================== MENU SHOW Y HIDDEN =========
         if (itemClass === 'skills__content skills__close') {
             this.parentNode.className = 'skills__content skills__open'
 
-
-            let parent = this.parentNode.children[1].children;
-
-            for (let n = 0; n < parent.length; n++) {
-                let newParent = parent[n].children[1].childNodes[1];
-
-                //newParent.classList[1].remove;
-                console.log(newParent.classList[1]);
-
-                //newParent.classList.remove('skills__percentage');
-                //console.log(newParent);
-
-                /* for (const property in newParent) {
-                    console.log(property);
-                } */
-
-                //newParent.classList.remove('skills__percentage');
-
-                //newParent.classList.add('skills__percentage');
-            }
-
-            // document.getElementsByClassName('skills__bar')[0]
-
         }
 
 
