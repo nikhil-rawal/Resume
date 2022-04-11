@@ -569,7 +569,7 @@ img {
   -moz-animation-name: skills__html;
   -o-animation-name: skills__html;
   animation-name: skills__html;
-  width: 90%;
+  width: 95%;
 }
 
 .skills__css {
@@ -577,7 +577,7 @@ img {
   -moz-animation-name: skills__css;
   -o-animation-name: skills__css;
   animation-name: skills__css;
-  width: 90%;
+  width: 95%;
 }
 
 .skills__js {
@@ -585,7 +585,7 @@ img {
   -moz-animation-name: skills__js;
   -o-animation-name: skills__js;
   animation-name: skills__js;
-  width: 85%;
+  width: 90%;
 }
 
 .skills__react {
@@ -593,7 +593,31 @@ img {
   -moz-animation-name: skills__react;
   -o-animation-name: skills__react;
   animation-name: skills__react;
-  width: 75%;
+  width: 85%;
+}
+
+.skills__nodejs {
+  -webkit-animation-name: skills__nodejs;
+  -moz-animation-name: skills__nodejs;
+  -o-animation-name: skills__nodejs;
+  animation-name: skills__nodejs;
+  width: 60%;
+}
+
+.skills__reactnative {
+  -webkit-animation-name: skills__reactnative;
+  -moz-animation-name: skills__reactnative;
+  -o-animation-name: skills__reactnative;
+  animation-name: skills__reactnative;
+  width: 40%;
+}
+
+.skills__redux {
+  -webkit-animation-name: skills__redux;
+  -moz-animation-name: skills__redux;
+  -o-animation-name: skills__redux;
+  animation-name: skills__redux;
+  width: 60%;
 }
 
 .skills__xdfig {
@@ -601,7 +625,7 @@ img {
   -moz-animation-name: skills__xdfig;
   -o-animation-name: skills__xdfig;
   animation-name: skills__xdfig;
-  width: 85%;
+  width: 90%;
 }
 
 .skills__ae {
@@ -617,7 +641,7 @@ img {
   -moz-animation-name: skills__resolve;
   -o-animation-name: skills__resolve;
   animation-name: skills__resolve;
-  width: 70%;
+  width: 80%;
 }
 
 .skills__illinkscape {
@@ -625,7 +649,7 @@ img {
   -moz-animation-name: skills__illinkscape;
   -o-animation-name: skills__illinkscape;
   animation-name: skills__illinkscape;
-  width: 65%;
+  width: 70%;
 }
 
 @keyframes skills__html {
